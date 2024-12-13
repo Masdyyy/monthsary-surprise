@@ -1,7 +1,6 @@
 import AudioPlayer from "@/components/Audio";
 import MouseImageTrail from "@/components/MouseImageTrail";
 import { useEffect, useState } from "react";
-import { HeartSpinner } from "react-spinners-kit";
 import {
     Card,
     CardContent,
@@ -11,7 +10,7 @@ import {
 } from "@/components/ui/card"
 
 const AnnivPage = () => {
-    const [imagesLoaded, setImagesLoaded] = useState(false);
+    const [, setImagesLoaded] = useState(false);
 
     // PLACE YOUR IMAGES HERE
     const imageUrls = [
