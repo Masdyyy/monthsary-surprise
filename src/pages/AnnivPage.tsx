@@ -91,7 +91,7 @@ const AnnivPage = () => {
                 <div className="text-pretty p-3 h-max flex justify-center items-center text-white">
                     <div className="grid place-items-center">
                         <h1 className="text-4xl mb-5 font-[Britney-Variable] text-center">Happy 7th Monthsary!</h1>
-                        <p className="mb-4 font-body">As I sit here writing this, I can’t help but think of all the beautiful moments we’ve shared—our first date, our quiet picnics, and the simple yet unforgettable days spent walking around the mall, playing games, and just being silly together. 
+                        <p className="mb-4 font-body">As I sit here creating/coding this, I can’t help but think of all the beautiful moments we’ve shared—our first date, our quiet picnics, and the simple yet unforgettable days spent walking around the mall, playing games, and just being silly together. 
                         </p>
                         <p className="mb-4 font-body">Each of those moments reminds me how lucky I am to have you by my side.
                         </p>
