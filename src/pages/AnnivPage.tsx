@@ -15,14 +15,17 @@ const AnnivPage = () => {
 
     // PLACE YOUR IMAGES HERE
     const imageUrls = [
-        'https://images.unsplash.com/photo-1504194569341-48a2e831a3a7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        'https://images.unsplash.com/reserve/Af0sF2OS5S5gatqrKzVP_Silhoutte.jpg?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        'https://images.unsplash.com/photo-1429080355161-3c071e2e27a6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8TG92ZXxlbnwwfDB8MHx8fDA%3D',
-        'https://images.unsplash.com/photo-1461009209120-103a8f970745?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        'https://images.unsplash.com/photo-1504122398460-c635d6377010?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        'https://images.unsplash.com/photo-1496429946712-acb085074b51?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        'https://plus.unsplash.com/premium_photo-1675302630215-ab15df32601b?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    ]
+        'src/assets/pics/IMG_5613.jpg',
+        'src/assets/pics/IMG_5621.jpg',
+        'src/assets/pics/IMG_5951.jpg',
+        'src/assets/pics/IMG_5971.jpg',
+        'src/assets/pics/IMG_6068.jpg',
+        'src/assets/pics/IMG_6088.jpg',
+        'src/assets/pics/IMG_6148.jpg',
+        'src/assets/pics/IMG_6157.jpg',
+        'src/assets/pics/IMG_6189.jpg',
+        'src/assets/pics/IMG_6198.jpg',
+    ];
 
     const preloadImages = (urls: any) => {
         return Promise.all(
@@ -78,25 +81,25 @@ const AnnivPage = () => {
             <div className="col-span-3 p-4 bg-rose-950">
                 <Card>
                     <CardHeader className="text-center">
-                        <CardTitle>Title</CardTitle>
-                        <CardDescription>Artist</CardDescription>
+                        <CardTitle>Sincerely Yours</CardTitle>
+                        <CardDescription>Sophie Meiers</CardDescription>
                     </CardHeader>
                     {/* PLACE YOUR AUDIO LINK HERE */}
                     <CardContent>
-                        <AudioPlayer src='link'></AudioPlayer>
+                        <AudioPlayer src="src/assets/audio/lala.mp3" />
                     </CardContent>
                 </Card>
                 <div className="text-pretty p-3 h-max flex justify-center items-center text-white">
                     <div className="grid place-items-center">
-                        <h1 className="text-4xl mb-5 font-[Britney-Variable] text-center">Title</h1>
-                        <p className="mb-4 font-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam totam omnis inventore.
+                        <h1 className="text-4xl mb-5 font-[Britney-Variable] text-center">Happy 7th Monthsary!</h1>
+                        <p className="mb-4 font-body">As I sit here writing this, I can’t help but think of all the beautiful moments we’ve shared—our first date, our quiet picnics, and the simple yet unforgettable days spent walking around the mall, playing games, and just being silly together. 
                         </p>
-                        <p className="mb-4 font-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla distinctio sapiente sint ipsa, itaque labore ipsam, aliquam sunt reprehenderit vel doloremque iure. Id expedita labore incidunt reprehenderit fugit voluptatum doloribus? <span className="font-bold">I love you!</span>
+                        <p className="mb-4 font-body">Each of those moments reminds me how lucky I am to have you by my side.
                         </p>
-                        <p className="mb-4 font-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia explicabo architecto, sapiente qui rerum blanditiis!
+                        <p className="mb-4 font-body"> You’ve brought so much joy, comfort, and love into my life, and I hope this small gesture reminds you just how special you are to me.
                         </p>
                         <p className="font-body">
-                            Lorem ipsum dolor sit amet.
+                            I hope you like my little surprise for you. <span className="font-bold">I love you so so much!</span>
                         </p>
                     </div>
                 </div>
