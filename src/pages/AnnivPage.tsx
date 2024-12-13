@@ -14,16 +14,16 @@ const AnnivPage = () => {
 
     // PLACE YOUR IMAGES HERE
     const imageUrls = [
-        'src/assets/pics/IMG_5613.jpg',
-        'src/assets/pics/IMG_5621.jpg',
-        'src/assets/pics/IMG_5951.jpg',
-        'src/assets/pics/IMG_5971.jpg',
-        'src/assets/pics/IMG_6068.jpg',
-        'src/assets/pics/IMG_6088.jpg',
-        'src/assets/pics/IMG_6148.jpg',
-        'src/assets/pics/IMG_6157.jpg',
-        'src/assets/pics/IMG_6189.jpg',
-        'src/assets/pics/IMG_6198.jpg',
+        'pics/IMG_5613.jpg',
+        'pics/IMG_5621.jpg',
+        'pics/IMG_5951.jpg',
+        'pics/IMG_5971.jpg',
+        'pics/IMG_6068.jpg',
+        'pics/IMG_6088.jpg',
+        'pics/IMG_6148.jpg',
+        'pics/IMG_6157.jpg',
+        'pics/IMG_6189.jpg',
+        'pics/IMG_6198.jpg',
     ];
 
     const preloadImages = (urls: any) => {
@@ -85,7 +85,7 @@ const AnnivPage = () => {
                     </CardHeader>
                     {/* PLACE YOUR AUDIO LINK HERE */}
                     <CardContent>
-                        <AudioPlayer src="src/assets/audio/lala.mp3" />
+                        <AudioPlayer src="audio/lala.mp3" />
                     </CardContent>
                 </Card>
                 <div className="text-pretty p-3 h-max flex justify-center items-center text-white">
