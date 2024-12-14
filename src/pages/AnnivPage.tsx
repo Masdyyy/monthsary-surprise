@@ -24,6 +24,29 @@ const AnnivPage = () => {
         'pics/IMG_6157.jpg',
         'pics/IMG_6189.jpg',
         'pics/IMG_6198.jpg',
+        'https://res.cloudinary.com/drs1gwyqd/image/upload/v1734141987/IMG_5344_g1uujc.jpg',
+        'https://res.cloudinary.com/drs1gwyqd/image/upload/v1734141985/IMG_5456_bahlo9.jpg',
+        'https://res.cloudinary.com/drs1gwyqd/image/upload/v1734141985/IMG_5481_zqhipl.jpg',
+        'https://res.cloudinary.com/drs1gwyqd/image/upload/v1734141984/IMG_5575_dh3ivm.jpg',
+        'https://res.cloudinary.com/drs1gwyqd/image/upload/v1734141983/IMG_5652_doqbdd.jpg',
+        'https://res.cloudinary.com/drs1gwyqd/image/upload/v1734141982/IMG_5702_wucasi.jpg',
+        'https://res.cloudinary.com/drs1gwyqd/image/upload/v1734141981/IMG_5797_nv0vcy.jpg',
+        'https://res.cloudinary.com/drs1gwyqd/image/upload/v1734141981/IMG_5889_olmqha.jpg',
+        'https://res.cloudinary.com/drs1gwyqd/image/upload/v1734141981/IMG_5877_z0rsyf.jpg',
+        'https://res.cloudinary.com/drs1gwyqd/image/upload/v1734141980/IMG_5766_euodlj.jpg',
+        'https://res.cloudinary.com/drs1gwyqd/image/upload/v1734141980/IMG_5892_g9bd7o.jpg',
+        'https://res.cloudinary.com/drs1gwyqd/image/upload/v1734141979/IMG_5837_co83hf.jpg',
+        'https://res.cloudinary.com/drs1gwyqd/image/upload/v1734141979/IMG_5925_yaihhe.jpg',
+        'https://res.cloudinary.com/drs1gwyqd/image/upload/v1734141979/IMG_5914_s0px3r.jpg',
+        'https://res.cloudinary.com/drs1gwyqd/image/upload/v1734141978/IMG_5934_dxs0be.jpg',
+        'https://res.cloudinary.com/drs1gwyqd/image/upload/v1734142393/IMG_5029_q4d5y4.jpg',
+        'https://res.cloudinary.com/drs1gwyqd/image/upload/v1734142392/IMG_5296_kmacu9.jpg',
+        'https://res.cloudinary.com/drs1gwyqd/image/upload/v1734142393/IMG_5061_c5vssa.jpg',
+        'https://res.cloudinary.com/drs1gwyqd/image/upload/v1734142393/IMG_5137_ricj0l.jpg',
+        'https://res.cloudinary.com/drs1gwyqd/image/upload/v1734142393/IMG_5065_vybioo.jpg',
+        'https://res.cloudinary.com/drs1gwyqd/image/upload/v1734142393/IMG_5060_zxb0mi.jpg',
+        'https://res.cloudinary.com/drs1gwyqd/image/upload/v1734142395/IMG_4904_dsj6d3.jpg',
+        'https://res.cloudinary.com/drs1gwyqd/image/upload/v1734142394/IMG_4928_zfi8vu.jpg',
     ];
 
     const preloadImages = (urls: any) => {
@@ -80,8 +103,8 @@ const AnnivPage = () => {
             <div className="col-span-3 p-4 bg-rose-950">
                 <Card>
                     <CardHeader className="text-center">
-                        <CardTitle>Sincerely Yours</CardTitle>
-                        <CardDescription>Sophie Meiers</CardDescription>
+                        <CardTitle>Corduroy Dreams</CardTitle>
+                        <CardDescription>Rex Orange County</CardDescription>
                     </CardHeader>
                     {/* PLACE YOUR AUDIO LINK HERE */}
                     <CardContent>
@@ -91,14 +114,14 @@ const AnnivPage = () => {
                 <div className="text-pretty p-3 h-max flex justify-center items-center text-white">
                     <div className="grid place-items-center">
                         <h1 className="text-4xl mb-5 font-[Britney-Variable] text-center">Happy 7th Monthsary!</h1>
-                        <p className="mb-4 font-body">As I sit here creating/coding this, I can’t help but think of all the beautiful moments we’ve shared—our first date, our quiet picnics, and the simple yet unforgettable days spent walking around the mall, playing games, and just being silly together. 
+                        <p className="mb-4 font-body">As I sit here creating/coding this, I can’t help but think of all the beautiful moments we’ve done, from our very first date, our quiet picnics, and the simple yet unforgettable days spent walking around the mall, playing games, and just being silly together. 
                         </p>
-                        <p className="mb-4 font-body">Each of those moments reminds me how lucky I am to have you by my side.
+                        <p className="mb-4 font-body">Your love is my safe place, my comfort, and my strength. It’s in the way you listen to me, the way you understand me, and the way you never give up on us, even during our toughest days. It’s in your thoughtful gestures, your warm hugs, and your endless patience with me.
                         </p>
                         <p className="mb-4 font-body"> You’ve brought so much joy, comfort, and love into my life, and I hope this small gesture reminds you just how special you are to me.
                         </p>
                         <p className="font-body">
-                            I hope you like my little surprise for you. <span className="font-bold">I love you so so much!</span>
+                            I hope you like my little surprise for you. Just Hover the mouse ot just tap the screen to see some pieces of our memories. <span className="font-bold">I love you so so much!</span>
                         </p>
                     </div>
                 </div>
